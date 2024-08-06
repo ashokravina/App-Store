@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.apps-container {
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'Bree Serif';
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
+}
+.img {
+  width: 70px;
+}
+.app-heading {
+  font-size: 16px;
+  color: #1e293b;
+}
+@media (max-width: 756px) {
+  .app-heading {
+    font-size: 12px;
+  }
+  .img {
+    width: 35px;
+  }
+  .app-container {
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+  }
+}
+@media (min-width: 757px) {
+  .app-container {
+    margin: 10px;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.button {
+  background-color: transparent;
+  border: 0px solid #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  color: #7b8794;
+}
+.btn-color-change {
+  border-bottom: 2px solid #2563eb;
+}
+@media(max-width:756px) {
+  .button {
+    font-size: 18px;
+  }
+  .container {
+    margin: 5px;
+  }
+}
